@@ -8,7 +8,7 @@
                         <img src="{{ asset('image/logo.png') }}" alt="MealMet Logo" class="w-full">
                     </div>
                     <div>
-                        <h1 class="text-3xl font-bold bg-gradient-to-r from-yellow-700 to-red-400 bg-clip-text text-transparent">
+                        <h1 class="text-3xl font-bold bg-gradient-to-r from-orange-500 to-yellow-500 hover:from-orange-600 hover:to-yellow-600 bg-clip-text text-transparent">
                             MealMet
                         </h1>
                         <p class="text-xs text-gray-500 font-medium tracking-wider">AI Meal Manager</p>
@@ -42,11 +42,11 @@
 
             <!-- CTA & Mobile Menu -->
             <div class="flex items-center space-x-6">
-                <a href="/quote" class="hidden md:inline-flex items-center px-6 py-3 bg-gradient-to-r from-yellow-800 to-yellow-500 hover:from-yellow-800 hover:to-red-400 text-white font-medium rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                <a href="/quote" class="hidden md:inline-flex items-center px-6 py-3 bg-gradient-to-r from-orange-500 to-yellow-500 hover:from-orange-600 hover:to-yellow-600 text-white font-medium rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
                     <i class="fas fa-comment-alt mr-2"></i>
                     Get Quote
                 </a>
-                
+
                 <div class="flex items-center space-x-4">
                     <!-- Social Icons -->
                     <div class="hidden md:flex items-center space-x-4 border-r border-gray-200 pr-4">
@@ -60,7 +60,7 @@
                             <i class="fab fa-instagram"></i>
                         </a>
                     </div>
-                    
+
                     <!-- Mobile Menu Button -->
                     <button id="mobile-menu-button" class="lg:hidden text-gray-700 hover:text-cyan-600">
                         <div class="space-y-1.5">
@@ -76,15 +76,15 @@
 
     <!-- Mobile Menu Overlay -->
     <div id="mobile-menu" class="lg:hidden fixed inset-0 bg-black/50 z-40 hidden">
-        <div class="absolute right-0 top-0 h-full w-80 bg-white shadow-2xl">
-            <div class="p-8">
+        <div class="absolute right-0 top-0 h-full w-80 bg-white shadow-2xl bg-linear-to-br from-orange-400 to-yellow-400">
+            <div class="p-8 h-full ">
                 <div class="flex justify-between items-center mb-10">
                     <span class="text-2xl font-bold text-gray-800">Menu</span>
                     <button id="close-menu" class="text-gray-500 hover:text-gray-800">
-                        <i class="fas fa-times text-2xl"></i>
+                        <i class="fas fa-times text-2xl">X</i>
                     </button>
                 </div>
-                <nav class="space-y-6">
+                <nav class="space-y-6 bg-linear-to-br from-orange-400 to-yellow-400 p-6 rounded-lg shadow-lg">
                     <a href="/" class="block text-xl font-medium text-gray-800 hover:text-cyan-600 py-3 border-b border-gray-100">
                         Home
                     </a>
@@ -105,3 +105,4 @@
         </div>
     </div>
 </header>
+<script src="{{ asset('js/header.js') }}"></script>
