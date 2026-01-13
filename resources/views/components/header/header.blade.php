@@ -22,12 +22,12 @@
                     Home
                     <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-900 group-hover:w-full transition-all duration-300"></span>
                 </a>
-                <a href="/portfolio" class="relative px-1 py-2 font-medium text-gray-700 group">
-                    Portfolio
+                <a href="/recipes" class="relative px-1 py-2 font-medium text-gray-700 group">
+                    Recipes
                     <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-600 group-hover:w-full transition-all duration-300"></span>
                 </a>
-                <a href="/services" class="relative px-1 py-2 font-medium text-gray-700 group">
-                    Services
+                <a href="/why-mealmet" class="relative px-1 py-2 font-medium text-gray-700 group">
+                    Why MealMet
                     <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-amber-500 group-hover:w-full transition-all duration-300"></span>
                 </a>
                 <a href="/blog" class="relative px-1 py-2 font-medium text-gray-700 group">
@@ -88,11 +88,11 @@
                     <a href="/" class="block text-xl font-medium text-gray-800 hover:text-cyan-600 py-3 border-b border-gray-100">
                         Home
                     </a>
-                    <a href="/portfolio" class="block text-xl font-medium text-gray-800 hover:text-cyan-600 py-3 border-b border-gray-100">
-                        Portfolio
+                    <a href="/recipes" class="block text-xl font-medium text-gray-800 hover:text-cyan-600 py-3 border-b border-gray-100">
+                        Recipes
                     </a>
-                    <a href="/services" class="block text-xl font-medium text-gray-800 hover:text-cyan-600 py-3 border-b border-gray-100">
-                        Services
+                    <a href="/why-mealmet" class="block text-xl font-medium text-gray-800 hover:text-cyan-600 py-3 border-b border-gray-100">
+                        Why MealMet
                     </a>
                     <a href="/blog" class="block text-xl font-medium text-gray-800 hover:text-cyan-600 py-3 border-b border-gray-100">
                         Blog

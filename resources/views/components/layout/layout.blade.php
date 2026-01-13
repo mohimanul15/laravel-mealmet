@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="{{ asset('image/logo.png') }}" type="image/png">
     <title>{{ $title }}</title>
-    <meta name="description" content="MealMet is your AI-powered meal manager, helping you plan, organize, and enjoy your meals effortlessly.">
-    <meta name="keywords" content="MealMet, AI Meal Manager, Meal Planning, Food Organization, Healthy Eating, Meal Prep, Nutrition, AI Technology">
+    <meta name="description" content="{{$description}}">
+    <meta name="keywords" content="{{$tags}}">
     @vite([ 'resources/css/app.css', 'resources/js/app.js' ])
 </head>
 

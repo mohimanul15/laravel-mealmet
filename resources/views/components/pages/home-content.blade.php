@@ -35,14 +35,19 @@
                 </p>
 
                 <div class="flex flex-col sm:flex-row gap-6 mb-12">
-                    <button class="px-8 py-4 bg-gradient-to-r from-orange-500 to-yellow-500 hover:from-orange-600 hover:to-yellow-600 text-white font-bold rounded-xl text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl flex items-center justify-center">
-                        <i class="fas fa-play-circle mr-3"></i>
-                        Start Free Trial
-                    </button>
-                    <button class="px-8 py-4 bg-white border-2 border-orange-200 hover:border-orange-300 text-gray-800 font-bold rounded-xl text-lg transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-lg flex items-center justify-center">
-                        <i class="fas fa-utensils mr-3 text-orange-500"></i>
-                        Explore Recipes
-                    </button>
+                    <a href="#">
+                        <button class="cursor-pointer px-8 py-4 bg-gradient-to-r from-orange-500 to-yellow-500 hover:from-orange-600 hover:to-yellow-600 text-white font-bold rounded-xl text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl flex items-center justify-center">
+                            <i class="fas fa-play-circle mr-3"></i>
+                            Start Free Trial
+                        </button>
+                    </a>
+
+                    <a href="/recipes">
+                        <button class="cursor-pointer px-8 py-4 bg-white border-2 border-orange-200 hover:border-orange-300 text-gray-800 font-bold rounded-xl text-lg transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-lg flex items-center justify-center">
+                            <i class="fas fa-utensils mr-3 text-orange-500"></i>
+                            Explore Recipes
+                        </button>
+                    </a>
                 </div>
 
                 <!-- Stats -->
@@ -622,6 +627,7 @@
 
 <!-- JavaScript for Animations -->
 <script>
+
     document.addEventListener('DOMContentLoaded', function() {
         // Animate elements on scroll
         function animateOnScroll() {

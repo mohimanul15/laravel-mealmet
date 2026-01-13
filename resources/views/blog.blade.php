@@ -1,7 +1,6 @@
 <x-layout>
-
     <x-slot:title>
-        Contact Us - MealMet
+        Blog | MealMet
     </x-slot:title>
 
     <x-slot:description>
@@ -12,7 +11,7 @@
         MealMet, AI Meal Manager, Meal Planning, Food Organization, Healthy Eating, Meal Prep, Nutrition, AI Technology.
     </x-slot:tags>
 
-    <x-pages.contact-content>
+    <x-pages.blog-content>
 
-    </x-pages.contact-content>
+    </x-pages.blog-content>
 </x-layout>
